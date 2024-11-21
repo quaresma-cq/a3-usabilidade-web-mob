@@ -320,7 +320,7 @@
 .login .text-wrapper-5 {
   position: absolute;
   width: 342px;
-  top: 678px;
+  top: 715px;
   left: 24px;
   font-family: var(--open-sans-open-sans-text-lg-semibold-font-family);
   font-weight: var(--open-sans-open-sans-text-lg-semibold-font-weight);
@@ -334,7 +334,7 @@
 
 .login .bt-2 {
   position: absolute;
-  top: 722px;
+  top: 750px;
   left: 71px;
   background-color: var(--bot-o-cor-do-bot-o);
   display: flex;
