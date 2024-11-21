@@ -1,16 +1,16 @@
-.lg {
+.login {
   position: relative;
   width: 390px;
   height: 844px;
   background-color: rgba(255, 255, 255, 1.0);
   background: linear-gradient(
-    180deg,
-    rgb(196, 93, 34) 59.9%,
-    rgb(0, 86, 109) 100%
+      180deg,
+      rgb(196, 93, 34) 59.9%,
+      rgb(0, 86, 109) 100%
   );
 }
 
-.lg .overlap {
+.login .overlap {
   position: absolute;
   width: 390px;
   height: 653px;
@@ -20,7 +20,7 @@
   border-radius: 0px 0px 25px 25px;
 }
 
-.lg .frame {
+.login .frame {
   display: flex;
   flex-direction: column;
   width: 342px;
@@ -31,7 +31,7 @@
   left: 24px;
 }
 
-.lg .title {
+.login .title {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -45,7 +45,7 @@
   font-style: var(--space-grotesk-space-grotesk-h3-bold-font-style);
 }
 
-.lg .div {
+.login .div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -56,7 +56,7 @@
   flex: 0 0 auto;
 }
 
-.lg .text-wrapper {
+.login .text-wrapper {
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
@@ -69,7 +69,7 @@
   font-style: var(--open-sans-open-sans-text-lg-semibold-font-style);
 }
 
-.lg .div-2 {
+.login .div-2 {
   display: flex;
   height: 44px;
   align-items: center;
@@ -84,7 +84,7 @@
   border-color: var(--azul-chique);
 }
 
-.lg .input-layer {
+.login .input-layer {
   position: relative;
   flex-grow: 1;
   border: none;
@@ -101,7 +101,7 @@
   padding: 0;
 }
 
-.lg .text-wrapper-2 {
+.login .text-wrapper-2 {
   align-self: stretch;
   font-family: var(--open-sans-open-sans-text-lg-semibold-font-family);
   font-weight: var(--open-sans-open-sans-text-lg-semibold-font-weight);
@@ -113,7 +113,7 @@
   font-style: var(--open-sans-open-sans-text-lg-semibold-font-style);
 }
 
-.lg .senha-wrapper {
+.login .senha-wrapper {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -122,7 +122,7 @@
   flex-grow: 1;
 }
 
-.lg .senha {
+.login .senha {
   width: fit-content;
   margin-top: -1.00px;
   font-family: var(--open-sans-open-sans-text-md-regular-font-family);
@@ -136,13 +136,13 @@
   font-style: var(--open-sans-open-sans-text-md-regular-font-style);
 }
 
-.lg .hide-password {
+.login .hide-password {
   position: relative;
   width: 24px;
   height: 24px;
 }
 
-.lg .text-wrapper-3 {
+.login .text-wrapper-3 {
   position: relative;
   align-self: stretch;
   font-family: "Lato-Medium", Helvetica;
@@ -155,7 +155,7 @@
   text-decoration: underline;
 }
 
-.lg .bt {
+.login .bt {
   position: relative;
   flex: 0 0 auto;
   background-color: var(--bot-o-cor-do-bot-o);
@@ -169,14 +169,14 @@
   border-color: var(--azul-chique);
 }
 
-.lg .retangulo-vazio {
+.login .retangulo-vazio {
   position: relative;
   width: 20px;
   height: 20px;
   transform: rotate(90.00deg);
 }
 
-.lg .bot-o {
+.login .bot-o {
   color: var(--bot-o-cor-da-fonte);
   position: relative;
   flex: 1;
@@ -191,13 +191,13 @@
   font-style: var(--space-grotesk-space-grotesk-text-lg-bold-font-style);
 }
 
-.lg .redes-sociais {
+.login .redes-sociais {
   position: relative;
   width: 170px;
   height: 46px;
 }
 
-.lg .group {
+.login .group {
   left: 61px;
   position: absolute;
   width: 47px;
@@ -208,7 +208,7 @@
   box-shadow: 0px 2px 4px #0000001a;
 }
 
-.lg .overlap-group {
+.login .overlap-group {
   position: relative;
   width: 31px;
   height: 31px;
@@ -216,7 +216,7 @@
   left: 8px;
 }
 
-.lg .vector {
+.login .vector {
   position: absolute;
   width: 15px;
   height: 14px;
@@ -224,7 +224,7 @@
   left: 16px;
 }
 
-.lg .img {
+.login .img {
   position: absolute;
   width: 25px;
   height: 13px;
@@ -232,7 +232,7 @@
   left: 2px;
 }
 
-.lg .vector-2 {
+.login .vector-2 {
   position: absolute;
   width: 7px;
   height: 14px;
@@ -240,7 +240,7 @@
   left: 0;
 }
 
-.lg .vector-3 {
+.login .vector-3 {
   position: absolute;
   width: 25px;
   height: 13px;
@@ -248,7 +248,7 @@
   left: 2px;
 }
 
-.lg .frame-wrapper {
+.login .frame-wrapper {
   left: 0;
   position: absolute;
   width: 47px;
@@ -259,7 +259,7 @@
   box-shadow: 0px 2px 4px #0000001a;
 }
 
-.lg .frame-2 {
+.login .frame-2 {
   position: absolute;
   width: 31px;
   height: 29px;
@@ -267,7 +267,7 @@
   left: 8px;
 }
 
-.lg .facebook-wrapper {
+.login .facebook-wrapper {
   left: 123px;
   position: absolute;
   width: 47px;
@@ -278,7 +278,7 @@
   box-shadow: 0px 2px 4px #0000001a;
 }
 
-.lg .facebook {
+.login .facebook {
   position: absolute;
   width: 33px;
   height: 31px;
@@ -286,7 +286,7 @@
   left: 7px;
 }
 
-.lg .logo {
+.login .logo {
   position: absolute;
   width: 107px;
   height: 130px;
@@ -294,7 +294,7 @@
   left: 141px;
 }
 
-.lg .icone-logo {
+.login .icone-logo {
   position: absolute;
   width: 107px;
   height: 104px;
@@ -302,76 +302,7 @@
   left: 0;
 }
 
-.lg .overlap-group-2 {
-  position: relative;
-  height: 104px;
-}
-
-.lg .rectangle {
-  left: 14px;
-  position: absolute;
-  width: 5px;
-  height: 45px;
-  top: 44px;
-  background-color: var(--azul-chique);
-  border-radius: 40px;
-  border: 3px solid;
-  border-color: var(--bot-o-stroke);
-}
-
-.lg .rectangle-2 {
-  left: 88px;
-  position: absolute;
-  width: 5px;
-  height: 45px;
-  top: 44px;
-  background-color: var(--azul-chique);
-  border-radius: 40px;
-  border: 3px solid;
-  border-color: var(--bot-o-stroke);
-}
-
-.lg .vector-4 {
-  position: absolute;
-  width: 107px;
-  height: 9px;
-  top: 87px;
-  left: 0;
-}
-
-.lg .vector-5 {
-  position: absolute;
-  width: 12px;
-  height: 8px;
-  top: 95px;
-  left: 18px;
-}
-
-.lg .vector-6 {
-  position: absolute;
-  width: 9px;
-  height: 6px;
-  top: 95px;
-  left: 4px;
-}
-
-.lg .vector-7 {
-  position: absolute;
-  width: 101px;
-  height: 48px;
-  top: 0;
-  left: 3px;
-}
-
-.lg .vector-8 {
-  position: absolute;
-  width: 18px;
-  height: 23px;
-  top: 7px;
-  left: 76px;
-}
-
-.lg .text-wrapper-4 {
+.login .text-wrapper-4 {
   position: absolute;
   top: 108px;
   left: -11px;
@@ -386,7 +317,7 @@
   font-style: var(--space-grotesk-space-grotesk-h2-bold-font-style);
 }
 
-.lg .text-wrapper-5 {
+.login .text-wrapper-5 {
   position: absolute;
   width: 342px;
   top: 678px;
@@ -401,7 +332,7 @@
   font-style: var(--open-sans-open-sans-text-lg-semibold-font-style);
 }
 
-.lg .bt-2 {
+.login .bt-2 {
   position: absolute;
   top: 722px;
   left: 71px;
@@ -416,13 +347,13 @@
   border-color: var(--azul-chique);
 }
 
-.lg .cone-seta {
+.login .cone-seta {
   position: relative;
   width: 20px;
   height: 20px;
 }
 
-.lg .status-bar-iphone {
+.login .status-bar-iphone {
   position: fixed;
   width: 390px;
   height: 47px;
@@ -430,7 +361,7 @@
   left: 0;
 }
 
-.lg .clock {
+.login .clock {
   position: absolute;
   width: 88px;
   height: 47px;
@@ -438,7 +369,7 @@
   left: 0;
 }
 
-.lg .time-wrapper {
+.login .time-wrapper {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -448,7 +379,7 @@
   left: 48px;
 }
 
-.lg .time {
+.login .time {
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
@@ -462,7 +393,7 @@
   white-space: nowrap;
 }
 
-.lg .indicators-group {
+.login .indicators-group {
   display: inline-flex;
   align-items: center;
   gap: 7px;
@@ -471,21 +402,21 @@
   left: 285px;
 }
 
-.lg .signal {
+.login .signal {
   position: relative;
   width: 19.97px;
   height: 12.0px;
-  background-image: url(./img/cellular-connection.svg);
+  background-image: url(./img/Signal.svg);
   background-size: 100% 100%;
 }
 
-.lg .connection {
+.login .connection {
   position: relative;
   width: 17.33px;
   height: 12.5px;
 }
 
-.lg .battery {
+.login .battery {
   position: relative;
   width: 27.33px;
   height: 13px;
