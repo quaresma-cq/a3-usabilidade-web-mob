@@ -1,0 +1,277 @@
+:root {
+    --primary-color: #00566D;
+    --text-color: #1D1D1F;
+    --background-color: #FEFEFE;
+    --border-color: #F2F2F2;
+    --input-background: #F2F2F2;
+    --error-color: #D9000E;
+
+    display: flex; justify-content: center;  
+    align-items: center; 
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+}
+
+.senha02 {
+    width: 390px;
+    height: 844px;
+    position: relative;
+    background: var(--background-color);
+}
+
+/* Barra de cima */
+.status-bar {
+    width: 390px;
+    height: 47px;
+    padding: 17px 24px 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+width: 33px;
+height: 17px;
+
+font-size: 17px;
+line-height: 17px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.5px;
+font-feature-settings: 'ss03' on;
+
+color: #000000;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.signal {
+width: 19.97px;
+height: 12px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.signal img {
+    width: 100%;
+    height: 100%;  
+}
+
+.connection {
+width: 17px;
+height: 12.5px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.battery {
+    width: 23.33px;
+    height: 13px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.battery img {
+    width: 100%;
+    height: 100%;  
+}
+
+.indicators {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+/* Menu Superior */
+.menu-superior {
+    width: 390px;
+    height: 44px;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* Content */
+.page {
+    padding: 28px 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.description {
+    font-size: 15px;
+    color: var(--text-color);
+    text-align: center;
+}
+
+/* Inputs do formulario */
+.inputs {
+    padding: 0 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-group label {
+    font-size: 15px;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 327px;
+    height: 44px;
+}
+
+.password-input {
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    background: var(--input-background);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 15px;
+    color: var(--text-color);
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.toggle-password img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Mensagem de validação */
+.validation-message {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 0;
+}
+
+.warning-icon {
+    width: 12px;
+    height: 12px;
+    background: var(--error-color);
+    border-radius: 50%;
+    color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.message {
+    font-size: 10px;
+    color: var(--text-color);
+}
+
+/* Botão de continuar */
+.bt {
+    position: absolute;
+    left: 70px;
+    bottom: 309px;
+    padding: 12px 20px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 249px;
+    cursor: pointer;
+}
+
+.button-text {
+    color: var(--background-color);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    flex: 1;
+}
+
+.icon-seta-next {
+    width: 20px;
+    height: 20px;
+}
+
+/* Responsivo básico */
+@media (max-width: 390px) {
+    .senha02 {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .status-bar,
+    .menu-superior {
+        width: 100%;
+    }
+
+    .frame-717 {
+        padding: 28px 16px;
+    }
+
+    .inputs {
+        padding: 0 16px;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    .bt {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

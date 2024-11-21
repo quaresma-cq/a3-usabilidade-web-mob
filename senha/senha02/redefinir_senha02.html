@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redefinir Senha</title>
+    <link rel="stylesheet" href="redefinir_senha02.css">
+</head>
+<body>
+    <div class="senha02">
+        <!-- Barra de cima -->
+        <div class="status-bar">
+            <div class="clock">
+                <span class="time">9:41</span>
+            </div>
+            <div class="indicators">
+                <div class="signal">
+                    <img src="../imagens/Signal.png">
+                </div>
+                
+                <div class="connection">5G</div>
+                
+                <div class="battery">
+                    <img src="../imagens/Battery.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Superior -->
+        <div class="menu-superior">
+            <div class="icon-seta">
+                <img src="../imagens/icone-seta.png" alt="Voltar">
+            </div>
+            <div class="logomarca">
+                <div class="icone-logo">
+                    <img src="../imagens/Logomarca.png" alt="Logo">
+                </div>
+            </div>
+            <div class="icon-arrow-up"></div>
+        </div>
+
+        <!-- Content -->
+        <div class="page">
+            <div class="text1">
+                <h1 class="title">Redefinir senha</h1>
+            </div>
+            <p class="description">Agora insira sua nova senha e confirme novamente</p>
+        </div>
+
+        <!-- Inputs do formulario -->
+        <div class="inputs">
+            <div class="input-group">
+                <label for="password">Senha*</label>
+                <div class="input-wrapper">
+                    <input 
+                        type="password" 
+                        id="password" 
+                        class="password-input" 
+                        placeholder="*************"
+                        minlength="8"
+                        maxlength="15"
+                        required
+                    >
+                    <button type="button" class="toggle-password" aria-label="Mostrar senha">
+                        <img src="../imagens/hide-password.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="validation-message">
+                <span class="warning-icon">!</span>
+                <span class="message">A sua senha de acesso deve ter entre 8 e 15 caracteres.</span>
+            </div>
+
+            <div class="input-group">
+                <label for="confirm-password">Confirme sua Senha*</label>
+                <div class="input-wrapper">
+                    <input 
+                        type="password" 
+                        id="confirm-password" 
+                        class="password-input" 
+                        placeholder="*************"
+                        minlength="8"
+                        maxlength="15"
+                        required
+                    >
+                    <button type="button" class="toggle-password" aria-label="Mostrar senha">
+                        <img src="../imagens/hide-password.png" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botão continuar -->
+        <button class="bt">
+            <span class="retangulo-vazio"></span>
+            <span class="button-text">Continuar</span>
+            <span class="icon-seta-next">
+                <img src="../imagens/icone-seta-next.png" alt="">
+            </span>
+        </button>
+    </div>
+</body>
+</html>

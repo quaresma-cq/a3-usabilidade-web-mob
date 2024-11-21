@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #00566D;
+    --text-color: #1F1F1F;
+    --background-color: #FEFEFE;
+    --border-color: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Grotesk', 'Open Sans', sans-serif;
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.popup-senha-redefinida {
+    width: 390px;
+    height: 390px;
+    position: relative;
+}
+
+.popup {
+    width: 100%;
+    height: 100%;
+    background-color: var(--background-color);
+    position: relative;
+}
+
+/* Menu Superior */
+.menu-superior {
+    width: 390px;
+    height: 44px;
+    padding: 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.icon-seta img {
+    height: 25px;
+    width: auto;
+}
+.logomarca img {
+    height: 32px;
+    width: auto;
+}
+
+/* Content */
+.page {
+    padding: 28px 31px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.text1 {
+    width: 243px;
+    text-align: center;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--text-color);
+    line-height: 1.2;
+}
+
+.description {
+    width: 300px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Botão Entrar */
+.bt {
+    padding: 12px 20px;
+    width: 249px;
+    height: 44px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button-text {
+    color: var(--background-color);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    flex: 1;
+}
+
+.retangulo-vazio {
+    width: 20px;
+    height: 20px;
+}
+
+/* Responsivo básico */
+@media (max-width: 390px) {
+    .popup-senha-redefinida {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .menu-superior {
+        width: 100%;
+    }
+
+    .frame-718 {
+        padding: 28px 16px;
+    }
+
+    .description {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .bt {
+        width: calc(100% - 32px);
+        margin: 20px 16px;
+    }
+}
