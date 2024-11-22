@@ -1,0 +1,890 @@
+.conversas {
+  position: relative;
+  width: 390px;
+  height: 844px;
+  background-color: var(--branco);
+}
+
+.conversas .title {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 16px 8px;
+  position: absolute;
+  top: 91px;
+  left: 0;
+}
+
+.conversas .text-wrapper {
+  width: 342px;
+  margin-top: -1.00px;
+  font-family: var(--open-sans-open-sans-h3-semibold-font-family);
+  font-weight: var(--open-sans-open-sans-h3-semibold-font-weight);
+  color: #000000;
+  font-size: var(--open-sans-open-sans-h3-semibold-font-size);
+  line-height: var(--open-sans-open-sans-h3-semibold-line-height);
+  position: relative;
+  letter-spacing: var(--open-sans-open-sans-h3-semibold-letter-spacing);
+  font-style: var(--open-sans-open-sans-h3-semibold-font-style);
+}
+
+.conversas .frame {
+  position: relative;
+  width: 342px;
+  height: 32px;
+  background-color: var(--cinza-muito-claro);
+  border-radius: 17px;
+}
+
+.conversas .img {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 6px;
+  left: 308px;
+}
+
+.conversas .filters {
+  display: flex;
+  width: 342px;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.conversas .cta-filter {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 14px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--azul-chique);
+  border-radius: 19px;
+  overflow: hidden;
+}
+
+.conversas .div {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--branco);
+  font-size: 12px;
+  letter-spacing: -0.12px;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.conversas .div-wrapper {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 14px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--cinza-muito-claro);
+  border-radius: 19px;
+  overflow: hidden;
+}
+
+.conversas .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: var(--preto);
+  font-size: 12px;
+  letter-spacing: -0.12px;
+  line-height: 19px;
+  white-space: nowrap;
+}
+
+.conversas .chat-list {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 0px 57px;
+  position: absolute;
+  top: 204px;
+  left: 0;
+}
+
+.conversas .chats {
+  display: flex;
+  width: 390px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 9.5px 0px 0px 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.conversas .maraca {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background-image: url(./img/maraca.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.conversas .text {
+  display: flex;
+  height: 67.66px;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 0px 15px 0px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  margin-top: -0.33px;
+  margin-bottom: -0.33px;
+  margin-right: -0.33px;
+  border-bottom-width: 0.33px;
+  border-bottom-style: solid;
+  border-color: var(--mode-border-brd-separator);
+}
+
+.conversas .contact {
+  display: flex;
+  flex-direction: column;
+  width: 239px;
+  align-items: flex-start;
+  gap: 1.5px;
+  position: relative;
+}
+
+.conversas .name {
+  display: flex;
+  width: 245px;
+  align-items: center;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -6.00px;
+}
+
+.conversas .name-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--open-sans-open-sans-h5-semibold-font-family);
+  font-weight: var(--open-sans-open-sans-h5-semibold-font-weight);
+  color: var(--preto);
+  font-size: var(--open-sans-open-sans-h5-semibold-font-size);
+  letter-spacing: var(--open-sans-open-sans-h5-semibold-letter-spacing);
+  line-height: var(--open-sans-open-sans-h5-semibold-line-height);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-style: var(--open-sans-open-sans-h5-semibold-font-style);
+}
+
+.conversas .messages-preview {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.conversas .preview {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--open-sans-open-sans-text-lg-regular-font-family);
+  font-weight: var(--open-sans-open-sans-text-lg-regular-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--open-sans-open-sans-text-lg-regular-font-size);
+  letter-spacing: var(--open-sans-open-sans-text-lg-regular-letter-spacing);
+  line-height: var(--open-sans-open-sans-text-lg-regular-line-height);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-style: var(--open-sans-open-sans-text-lg-regular-font-style);
+}
+
+.conversas .left {
+  display: flex;
+  flex-direction: column;
+  width: 32px;
+  align-items: flex-end;
+  gap: 3px;
+  padding: 1px 0px 0px;
+  position: relative;
+}
+
+.conversas .time {
+  width: 80px;
+  margin-left: -48.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--cinza-escuro);
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: -0.14px;
+  line-height: 19px;
+  position: relative;
+  margin-top: -1.00px;
+}
+
+.conversas .mention-badge {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -28.00px;
+}
+
+.conversas .card {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background-image: url(./img/card.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.conversas .name-3 {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.conversas .frame-2 {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background-image: url(./img/frame-2420.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.conversas .img-card {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  background-image: url(./img/img-card.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.conversas .menu-superior {
+  display: flex;
+  width: 390px;
+  height: 44px;
+  align-items: center;
+  gap: 130px;
+  padding: 8px 24px;
+  position: fixed;
+  top: 47px;
+  left: 0;
+  background-color: var(--branco);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--cinza-muito-claro);
+}
+
+.conversas .img-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.conversas .logomarca {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -2.00px;
+  margin-bottom: -2.00px;
+  border-radius: 500px;
+}
+
+.conversas .icone-logo {
+  position: relative;
+  width: 24.76px;
+  height: 24px;
+}
+
+.conversas .icon-park-outline {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  transform: rotate(90.00deg);
+}
+
+.conversas .nav-bar {
+  display: flex;
+  width: 390px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px 20px;
+  position: fixed;
+  top: 771px;
+  left: 0;
+  background-color: var(--branco);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--cinza-muito-claro);
+}
+
+.conversas .auto-layout {
+  max-width: 560px;
+  align-items: flex-start;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.conversas .auto-layout-vertical {
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  height: 45px;
+  align-items: center;
+  padding: 0px 21.2px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.conversas .img-wrapper {
+  width: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3px 3px 5px;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.conversas .frame-3 {
+  position: relative;
+  width: 35.6px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.conversas .text-wrapper-3 {
+  position: absolute;
+  width: 36px;
+  height: 13px;
+  top: -2px;
+  left: 0;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.conversas .auto-layout-vertical-2 {
+  height: 45px;
+  padding: 0px 18.08px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.conversas .icone-corao {
+  position: relative;
+  width: 24px;
+}
+
+.conversas .text-wrapper-4 {
+  position: relative;
+  width: 78px;
+  height: 13px;
+  margin-left: -18.08px;
+  margin-right: -18.08px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.conversas .auto-layout-vertical-3 {
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.conversas .icone-logo-wrapper {
+  width: 30px;
+  align-items: center;
+  padding: 4px 3px;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.conversas .icone-logo-2 {
+  position: relative;
+  width: 24.76px;
+  height: 24px;
+  margin-left: -0.38px;
+  margin-right: -0.38px;
+}
+
+.conversas .text-wrapper-5 {
+  position: relative;
+  width: 78px;
+  height: 13px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.conversas .auto-layout-vertical-4 {
+  height: 45px;
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.conversas .auto-layout-wrapper {
+  position: relative;
+  width: 30px;
+  height: 32px;
+}
+
+.conversas .cone-chat-wrapper {
+  width: 30px;
+  align-items: center;
+  padding: 3px;
+  top: 1px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.conversas .img-3 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.conversas .text-wrapper-6 {
+  width: 78px;
+  height: 13px;
+  margin-left: -24.00px;
+  margin-right: -24.00px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--azul-chique);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  position: relative;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.conversas .auto-layout-vertical-5 {
+  height: 45px;
+  padding: 0px 23.99px 0px 23.98px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.conversas .frame-4 {
+  position: relative;
+  width: 30.03px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.conversas .text-wrapper-7 {
+  position: absolute;
+  width: 30px;
+  height: 13px;
+  top: -2px;
+  left: 0;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.conversas .status-bar-iphone {
+  position: fixed;
+  width: 390px;
+  height: 47px;
+  top: 0;
+  left: 0;
+  background-color: var(--branco);
+}
+
+.conversas .clock {
+  position: absolute;
+  width: 88px;
+  height: 47px;
+  top: 0;
+  left: 0;
+}
+
+.conversas .time-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  position: relative;
+  top: 17px;
+  left: 48px;
+}
+
+.conversas .time-2 {
+  width: fit-content;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.50px;
+  line-height: 17px;
+  white-space: nowrap;
+  position: relative;
+  margin-top: -1.00px;
+}
+
+.conversas .indicators-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  position: absolute;
+  top: 19px;
+  left: 285px;
+}
+
+.conversas .signal {
+  position: relative;
+  width: 19.97px;
+  height: 12px;
+  background-image: url(./img/cellular-connection.svg);
+  background-size: 100% 100%;
+}
+
+.conversas .connection {
+  position: relative;
+  width: 17px;
+  height: 12.5px;
+  background-image: url(./img/wifi.svg);
+  background-size: 100% 100%;
+}
+
+.conversas .battery {
+  position: relative;
+  width: 27.33px;
+  height: 13px;
+}
+.auto-layout {
+  display: flex;
+  max-width: 560px;
+  align-items: flex-start;
+  justify-content: start;
+
+  position: relative;
+}
+
+.auto-layout .auto-layout-vertical {
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  height: 45px;
+  align-items: center;
+  padding: 0px 21.2px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.auto-layout .img-wrapper {
+  align-items: flex-start;
+  padding: 3px 3px 5px;
+  flex: 0 0 auto;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.auto-layout .cone-lupa {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.auto-layout .frame {
+  position: relative;
+  width: 35.6px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.auto-layout .text-wrapper {
+  position: absolute;
+  width: 36px;
+  height: 13px;
+  top: -2px;
+  left: 0;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+      --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .div {
+  height: 45px;
+  padding: 0px 18.08px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.auto-layout .icone-corao {
+  position: relative;
+  width: 24px;
+}
+
+.auto-layout .text-wrapper-2 {
+  position: relative;
+  width: 78px;
+  height: 13px;
+  margin-left: -18.08px;
+  margin-right: -18.08px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--azul-chique);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+      --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .auto-layout-vertical-2 {
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.auto-layout .icone-logo-wrapper {
+  align-items: center;
+  padding: 4px 3px;
+  flex: 0 0 auto;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.auto-layout .icone-logo {
+  position: relative;
+  width: 24.76px;
+  height: 24px;
+  margin-left: -0.38px;
+  margin-right: -0.38px;
+}
+
+.auto-layout .text-wrapper-3 {
+  position: relative;
+  width: 78px;
+  height: 13px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+      --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .auto-layout-vertical-3 {
+  height: 45px;
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.auto-layout .auto-layout-wrapper {
+  position: relative;
+  width: 30px;
+  height: 32px;
+}
+
+.auto-layout .cone-chat-wrapper {
+  align-items: center;
+  padding: 3px;
+  top: 1px;
+  display: flex;
+  width: 30px;
+  justify-content: center;
+  position: relative;
+}
+
+.auto-layout .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.auto-layout .text-wrapper-4 {
+  position: relative;
+  width: 78px;
+  height: 13px;
+  margin-left: -24.00px;
+  margin-right: -24.00px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+      --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .auto-layout-vertical-4 {
+  height: 45px;
+  padding: 0px 23.99px 0px 23.98px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.auto-layout .div-wrapper {
+  position: relative;
+  width: 30.03px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.auto-layout .text-wrapper-5 {
+  position: absolute;
+  width: 30px;
+  height: 13px;
+  top: -2px;
+  left: 0;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+      --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}

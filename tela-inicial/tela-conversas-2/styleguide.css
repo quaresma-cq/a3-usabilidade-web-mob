@@ -1,0 +1,595 @@
+:root {
+  --verde-alerta: rgba(3, 151, 3, 1);
+  --amarelo-alerta: rgba(235, 189, 9, 1);
+  --vermelho-alerta: rgba(217, 1, 1, 1);
+  --branco: rgba(254, 254, 254, 1);
+  --preto: rgba(29, 29, 31, 1);
+  --cinza-escuro: rgba(88, 88, 88, 1);
+  --cinza-mais-claro: rgba(151, 151, 151, 1);
+  --cinza-claro: rgba(201, 201, 201, 1);
+  --cinza-muito-claro: rgba(242, 242, 242, 1);
+  --azul-chique: rgba(0, 86, 109, 1);
+  --azul: rgba(128, 187, 185, 1);
+  --terra-cota: rgba(196, 93, 34, 1);
+  --rosa-bb: rgba(250, 175, 136, 1);
+  --space-grotesk-space-grotesk-h1-light-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h1-light-font-weight: 300;
+  --space-grotesk-space-grotesk-h1-light-font-size: 36px;
+  --space-grotesk-space-grotesk-h1-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h1-light-line-height: 36px;
+  --space-grotesk-space-grotesk-h1-light-font-style: normal;
+  --space-grotesk-space-grotesk-h1-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h1-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-h1-regular-font-size: 36px;
+  --space-grotesk-space-grotesk-h1-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h1-regular-line-height: 36px;
+  --space-grotesk-space-grotesk-h1-regular-font-style: normal;
+  --space-grotesk-space-grotesk-h1-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h1-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-h1-medium-font-size: 36px;
+  --space-grotesk-space-grotesk-h1-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h1-medium-line-height: 36px;
+  --space-grotesk-space-grotesk-h1-medium-font-style: normal;
+  --space-grotesk-space-grotesk-h1-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h1-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-h1-semibold-font-size: 36px;
+  --space-grotesk-space-grotesk-h1-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h1-semibold-line-height: 36px;
+  --space-grotesk-space-grotesk-h1-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-h1-bold-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h1-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-h1-bold-font-size: 36px;
+  --space-grotesk-space-grotesk-h1-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h1-bold-line-height: 36px;
+  --space-grotesk-space-grotesk-h1-bold-font-style: normal;
+  --space-grotesk-space-grotesk-h2-light-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h2-light-font-weight: 300;
+  --space-grotesk-space-grotesk-h2-light-font-size: 30px;
+  --space-grotesk-space-grotesk-h2-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h2-light-line-height: 30px;
+  --space-grotesk-space-grotesk-h2-light-font-style: normal;
+  --space-grotesk-space-grotesk-h2-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h2-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-h2-regular-font-size: 30px;
+  --space-grotesk-space-grotesk-h2-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h2-regular-line-height: 30px;
+  --space-grotesk-space-grotesk-h2-regular-font-style: normal;
+  --space-grotesk-space-grotesk-h2-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h2-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-h2-medium-font-size: 30px;
+  --space-grotesk-space-grotesk-h2-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h2-medium-line-height: 30px;
+  --space-grotesk-space-grotesk-h2-medium-font-style: normal;
+  --space-grotesk-space-grotesk-h2-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h2-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-h2-semibold-font-size: 30px;
+  --space-grotesk-space-grotesk-h2-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h2-semibold-line-height: 30px;
+  --space-grotesk-space-grotesk-h2-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-h2-bold-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h2-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-h2-bold-font-size: 30px;
+  --space-grotesk-space-grotesk-h2-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h2-bold-line-height: 30px;
+  --space-grotesk-space-grotesk-h2-bold-font-style: normal;
+  --space-grotesk-space-grotesk-h3-light-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h3-light-font-weight: 300;
+  --space-grotesk-space-grotesk-h3-light-font-size: 25px;
+  --space-grotesk-space-grotesk-h3-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h3-light-line-height: 25px;
+  --space-grotesk-space-grotesk-h3-light-font-style: normal;
+  --space-grotesk-space-grotesk-h3-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h3-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-h3-regular-font-size: 25px;
+  --space-grotesk-space-grotesk-h3-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h3-regular-line-height: 25px;
+  --space-grotesk-space-grotesk-h3-regular-font-style: normal;
+  --space-grotesk-space-grotesk-h3-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h3-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-h3-medium-font-size: 25px;
+  --space-grotesk-space-grotesk-h3-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h3-medium-line-height: 25px;
+  --space-grotesk-space-grotesk-h3-medium-font-style: normal;
+  --space-grotesk-space-grotesk-h3-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h3-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-h3-semibold-font-size: 25px;
+  --space-grotesk-space-grotesk-h3-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h3-semibold-line-height: 25px;
+  --space-grotesk-space-grotesk-h3-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-h3-bold-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h3-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-h3-bold-font-size: 25px;
+  --space-grotesk-space-grotesk-h3-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h3-bold-line-height: 25px;
+  --space-grotesk-space-grotesk-h3-bold-font-style: normal;
+  --space-grotesk-space-grotesk-h4-bold-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h4-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-h4-bold-font-size: 21px;
+  --space-grotesk-space-grotesk-h4-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h4-bold-line-height: 21px;
+  --space-grotesk-space-grotesk-h4-bold-font-style: normal;
+  --space-grotesk-space-grotesk-h4-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h4-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-h4-semibold-font-size: 21px;
+  --space-grotesk-space-grotesk-h4-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h4-semibold-line-height: 21px;
+  --space-grotesk-space-grotesk-h4-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-h4-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h4-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-h4-medium-font-size: 21px;
+  --space-grotesk-space-grotesk-h4-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h4-medium-line-height: 21px;
+  --space-grotesk-space-grotesk-h4-medium-font-style: normal;
+  --space-grotesk-space-grotesk-h4-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h4-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-h4-regular-font-size: 21px;
+  --space-grotesk-space-grotesk-h4-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h4-regular-line-height: 21px;
+  --space-grotesk-space-grotesk-h4-regular-font-style: normal;
+  --space-grotesk-space-grotesk-h4-light-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h4-light-font-weight: 300;
+  --space-grotesk-space-grotesk-h4-light-font-size: 21px;
+  --space-grotesk-space-grotesk-h4-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h4-light-line-height: 21px;
+  --space-grotesk-space-grotesk-h4-light-font-style: normal;
+  --space-grotesk-space-grotesk-h5-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h5-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-h5-semibold-font-size: 18px;
+  --space-grotesk-space-grotesk-h5-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h5-semibold-line-height: 18px;
+  --space-grotesk-space-grotesk-h5-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-h5-light-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h5-light-font-weight: 300;
+  --space-grotesk-space-grotesk-h5-light-font-size: 18px;
+  --space-grotesk-space-grotesk-h5-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h5-light-line-height: 18px;
+  --space-grotesk-space-grotesk-h5-light-font-style: normal;
+  --space-grotesk-space-grotesk-h5-bold-font-family: "Space Grotesk", Helvetica;
+  --space-grotesk-space-grotesk-h5-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-h5-bold-font-size: 18px;
+  --space-grotesk-space-grotesk-h5-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h5-bold-line-height: 18px;
+  --space-grotesk-space-grotesk-h5-bold-font-style: normal;
+  --space-grotesk-space-grotesk-h5-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h5-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-h5-medium-font-size: 18px;
+  --space-grotesk-space-grotesk-h5-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h5-medium-line-height: 18px;
+  --space-grotesk-space-grotesk-h5-medium-font-style: normal;
+  --space-grotesk-space-grotesk-h5-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-h5-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-h5-regular-font-size: 18px;
+  --space-grotesk-space-grotesk-h5-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-h5-regular-line-height: 18px;
+  --space-grotesk-space-grotesk-h5-regular-font-style: normal;
+  --space-grotesk-space-grotesk-text-md-bold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-md-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-text-md-bold-font-size: 12px;
+  --space-grotesk-space-grotesk-text-md-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-md-bold-line-height: 12px;
+  --space-grotesk-space-grotesk-text-md-bold-font-style: normal;
+  --space-grotesk-space-grotesk-text-md-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-md-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-text-md-semibold-font-size: 12px;
+  --space-grotesk-space-grotesk-text-md-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-md-semibold-line-height: 12px;
+  --space-grotesk-space-grotesk-text-md-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-text-md-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-md-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-text-md-medium-font-size: 12px;
+  --space-grotesk-space-grotesk-text-md-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-md-medium-line-height: 12px;
+  --space-grotesk-space-grotesk-text-md-medium-font-style: normal;
+  --space-grotesk-space-grotesk-text-md-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-md-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-text-md-regular-font-size: 12px;
+  --space-grotesk-space-grotesk-text-md-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-md-regular-line-height: 12px;
+  --space-grotesk-space-grotesk-text-md-regular-font-style: normal;
+  --space-grotesk-space-grotesk-text-md-light-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-md-light-font-weight: 300;
+  --space-grotesk-space-grotesk-text-md-light-font-size: 12px;
+  --space-grotesk-space-grotesk-text-md-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-md-light-line-height: 12px;
+  --space-grotesk-space-grotesk-text-md-light-font-style: normal;
+  --space-grotesk-space-grotesk-text-lg-bold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-lg-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-text-lg-bold-font-size: 15px;
+  --space-grotesk-space-grotesk-text-lg-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-lg-bold-line-height: 15px;
+  --space-grotesk-space-grotesk-text-lg-bold-font-style: normal;
+  --space-grotesk-space-grotesk-text-lg-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-lg-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-text-lg-semibold-font-size: 15px;
+  --space-grotesk-space-grotesk-text-lg-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-lg-semibold-line-height: 15px;
+  --space-grotesk-space-grotesk-text-lg-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-text-lg-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-lg-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-text-lg-medium-font-size: 15px;
+  --space-grotesk-space-grotesk-text-lg-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-lg-medium-line-height: 15px;
+  --space-grotesk-space-grotesk-text-lg-medium-font-style: normal;
+  --space-grotesk-space-grotesk-text-lg-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-lg-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-text-lg-regular-font-size: 15px;
+  --space-grotesk-space-grotesk-text-lg-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-lg-regular-line-height: 15px;
+  --space-grotesk-space-grotesk-text-lg-regular-font-style: normal;
+  --space-grotesk-space-grotesk-text-lg-light-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-lg-light-font-weight: 300;
+  --space-grotesk-space-grotesk-text-lg-light-font-size: 15px;
+  --space-grotesk-space-grotesk-text-lg-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-lg-light-line-height: 15px;
+  --space-grotesk-space-grotesk-text-lg-light-font-style: normal;
+  --space-grotesk-space-grotesk-text-sm-bold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-sm-bold-font-weight: 700;
+  --space-grotesk-space-grotesk-text-sm-bold-font-size: 10px;
+  --space-grotesk-space-grotesk-text-sm-bold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-sm-bold-line-height: 10px;
+  --space-grotesk-space-grotesk-text-sm-bold-font-style: normal;
+  --space-grotesk-space-grotesk-text-sm-semibold-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-sm-semibold-font-weight: 700;
+  --space-grotesk-space-grotesk-text-sm-semibold-font-size: 10px;
+  --space-grotesk-space-grotesk-text-sm-semibold-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-sm-semibold-line-height: 10px;
+  --space-grotesk-space-grotesk-text-sm-semibold-font-style: normal;
+  --space-grotesk-space-grotesk-text-sm-medium-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-sm-medium-font-weight: 500;
+  --space-grotesk-space-grotesk-text-sm-medium-font-size: 10px;
+  --space-grotesk-space-grotesk-text-sm-medium-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-sm-medium-line-height: 10px;
+  --space-grotesk-space-grotesk-text-sm-medium-font-style: normal;
+  --space-grotesk-space-grotesk-text-sm-regular-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-sm-regular-font-weight: 400;
+  --space-grotesk-space-grotesk-text-sm-regular-font-size: 10px;
+  --space-grotesk-space-grotesk-text-sm-regular-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-sm-regular-line-height: 10px;
+  --space-grotesk-space-grotesk-text-sm-regular-font-style: normal;
+  --space-grotesk-space-grotesk-text-sm-light-font-family: "Space Grotesk",
+    Helvetica;
+  --space-grotesk-space-grotesk-text-sm-light-font-weight: 300;
+  --space-grotesk-space-grotesk-text-sm-light-font-size: 10px;
+  --space-grotesk-space-grotesk-text-sm-light-letter-spacing: 0px;
+  --space-grotesk-space-grotesk-text-sm-light-line-height: 10px;
+  --space-grotesk-space-grotesk-text-sm-light-font-style: normal;
+  --open-sans-open-sans-text-sm-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-sm-bold-font-weight: 700;
+  --open-sans-open-sans-text-sm-bold-font-size: 10px;
+  --open-sans-open-sans-text-sm-bold-letter-spacing: 0px;
+  --open-sans-open-sans-text-sm-bold-line-height: 10px;
+  --open-sans-open-sans-text-sm-bold-font-style: normal;
+  --open-sans-open-sans-text-sm-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-sm-semibold-font-weight: 700;
+  --open-sans-open-sans-text-sm-semibold-font-size: 10px;
+  --open-sans-open-sans-text-sm-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-text-sm-semibold-line-height: 10px;
+  --open-sans-open-sans-text-sm-semibold-font-style: normal;
+  --open-sans-open-sans-text-sm-medium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-sm-medium-font-weight: 400;
+  --open-sans-open-sans-text-sm-medium-font-size: 10px;
+  --open-sans-open-sans-text-sm-medium-letter-spacing: 0px;
+  --open-sans-open-sans-text-sm-medium-line-height: 10px;
+  --open-sans-open-sans-text-sm-medium-font-style: normal;
+  --open-sans-open-sans-text-sm-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-sm-regular-font-weight: 400;
+  --open-sans-open-sans-text-sm-regular-font-size: 10px;
+  --open-sans-open-sans-text-sm-regular-letter-spacing: 0px;
+  --open-sans-open-sans-text-sm-regular-line-height: 10px;
+  --open-sans-open-sans-text-sm-regular-font-style: normal;
+  --open-sans-open-sans-text-sm-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-sm-light-font-weight: 300;
+  --open-sans-open-sans-text-sm-light-font-size: 10px;
+  --open-sans-open-sans-text-sm-light-letter-spacing: 0px;
+  --open-sans-open-sans-text-sm-light-line-height: 10px;
+  --open-sans-open-sans-text-sm-light-font-style: normal;
+  --open-sans-open-sans-text-md-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-md-bold-font-weight: 700;
+  --open-sans-open-sans-text-md-bold-font-size: 12px;
+  --open-sans-open-sans-text-md-bold-letter-spacing: 0px;
+  --open-sans-open-sans-text-md-bold-line-height: 12px;
+  --open-sans-open-sans-text-md-bold-font-style: normal;
+  --open-sans-open-sans-text-md-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-md-semibold-font-weight: 700;
+  --open-sans-open-sans-text-md-semibold-font-size: 12px;
+  --open-sans-open-sans-text-md-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-text-md-semibold-line-height: 12px;
+  --open-sans-open-sans-text-md-semibold-font-style: normal;
+  --open-sans-open-sans-text-md-medium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-md-medium-font-weight: 400;
+  --open-sans-open-sans-text-md-medium-font-size: 12px;
+  --open-sans-open-sans-text-md-medium-letter-spacing: 0px;
+  --open-sans-open-sans-text-md-medium-line-height: 12px;
+  --open-sans-open-sans-text-md-medium-font-style: normal;
+  --open-sans-open-sans-text-md-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-md-regular-font-weight: 400;
+  --open-sans-open-sans-text-md-regular-font-size: 12px;
+  --open-sans-open-sans-text-md-regular-letter-spacing: 0px;
+  --open-sans-open-sans-text-md-regular-line-height: 12px;
+  --open-sans-open-sans-text-md-regular-font-style: normal;
+  --open-sans-open-sans-text-md-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-md-light-font-weight: 300;
+  --open-sans-open-sans-text-md-light-font-size: 12px;
+  --open-sans-open-sans-text-md-light-letter-spacing: 0px;
+  --open-sans-open-sans-text-md-light-line-height: 12px;
+  --open-sans-open-sans-text-md-light-font-style: normal;
+  --open-sans-open-sans-text-lg-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-lg-bold-font-weight: 700;
+  --open-sans-open-sans-text-lg-bold-font-size: 15px;
+  --open-sans-open-sans-text-lg-bold-letter-spacing: 0px;
+  --open-sans-open-sans-text-lg-bold-line-height: 15px;
+  --open-sans-open-sans-text-lg-bold-font-style: normal;
+  --open-sans-open-sans-text-lg-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-lg-semibold-font-weight: 700;
+  --open-sans-open-sans-text-lg-semibold-font-size: 15px;
+  --open-sans-open-sans-text-lg-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-text-lg-semibold-line-height: 15px;
+  --open-sans-open-sans-text-lg-semibold-font-style: normal;
+  --open-sans-open-sans-text-lg-medium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-lg-medium-font-weight: 400;
+  --open-sans-open-sans-text-lg-medium-font-size: 15px;
+  --open-sans-open-sans-text-lg-medium-letter-spacing: 0px;
+  --open-sans-open-sans-text-lg-medium-line-height: 15px;
+  --open-sans-open-sans-text-lg-medium-font-style: normal;
+  --open-sans-open-sans-text-lg-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-lg-regular-font-weight: 400;
+  --open-sans-open-sans-text-lg-regular-font-size: 15px;
+  --open-sans-open-sans-text-lg-regular-letter-spacing: 0px;
+  --open-sans-open-sans-text-lg-regular-line-height: 15px;
+  --open-sans-open-sans-text-lg-regular-font-style: normal;
+  --open-sans-open-sans-text-lg-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-text-lg-light-font-weight: 300;
+  --open-sans-open-sans-text-lg-light-font-size: 15px;
+  --open-sans-open-sans-text-lg-light-letter-spacing: 0px;
+  --open-sans-open-sans-text-lg-light-line-height: 15px;
+  --open-sans-open-sans-text-lg-light-font-style: normal;
+  --open-sans-open-sans-h5-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h5-bold-font-weight: 700;
+  --open-sans-open-sans-h5-bold-font-size: 18px;
+  --open-sans-open-sans-h5-bold-letter-spacing: 0px;
+  --open-sans-open-sans-h5-bold-line-height: 18px;
+  --open-sans-open-sans-h5-bold-font-style: normal;
+  --open-sans-open-sans-h5-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h5-semibold-font-weight: 700;
+  --open-sans-open-sans-h5-semibold-font-size: 18px;
+  --open-sans-open-sans-h5-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-h5-semibold-line-height: 18px;
+  --open-sans-open-sans-h5-semibold-font-style: normal;
+  --open-sans-open-sans-h5-medium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h5-medium-font-weight: 400;
+  --open-sans-open-sans-h5-medium-font-size: 18px;
+  --open-sans-open-sans-h5-medium-letter-spacing: 0px;
+  --open-sans-open-sans-h5-medium-line-height: 18px;
+  --open-sans-open-sans-h5-medium-font-style: normal;
+  --open-sans-open-sans-h5-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h5-regular-font-weight: 400;
+  --open-sans-open-sans-h5-regular-font-size: 18px;
+  --open-sans-open-sans-h5-regular-letter-spacing: 0px;
+  --open-sans-open-sans-h5-regular-line-height: 18px;
+  --open-sans-open-sans-h5-regular-font-style: normal;
+  --open-sans-open-sans-h5-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h5-light-font-weight: 300;
+  --open-sans-open-sans-h5-light-font-size: 18px;
+  --open-sans-open-sans-h5-light-letter-spacing: 0px;
+  --open-sans-open-sans-h5-light-line-height: 18px;
+  --open-sans-open-sans-h5-light-font-style: normal;
+  --open-sans-open-sans-h4-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h4-bold-font-weight: 700;
+  --open-sans-open-sans-h4-bold-font-size: 21px;
+  --open-sans-open-sans-h4-bold-letter-spacing: 0px;
+  --open-sans-open-sans-h4-bold-line-height: 21px;
+  --open-sans-open-sans-h4-bold-font-style: normal;
+  --open-sans-open-sans-h4-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h4-semibold-font-weight: 700;
+  --open-sans-open-sans-h4-semibold-font-size: 21px;
+  --open-sans-open-sans-h4-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-h4-semibold-line-height: 21px;
+  --open-sans-open-sans-h4-semibold-font-style: normal;
+  --open-sans-open-sans-h4-medium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h4-medium-font-weight: 400;
+  --open-sans-open-sans-h4-medium-font-size: 21px;
+  --open-sans-open-sans-h4-medium-letter-spacing: 0px;
+  --open-sans-open-sans-h4-medium-line-height: 21px;
+  --open-sans-open-sans-h4-medium-font-style: normal;
+  --open-sans-open-sans-h4-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h4-regular-font-weight: 400;
+  --open-sans-open-sans-h4-regular-font-size: 21px;
+  --open-sans-open-sans-h4-regular-letter-spacing: 0px;
+  --open-sans-open-sans-h4-regular-line-height: 21px;
+  --open-sans-open-sans-h4-regular-font-style: normal;
+  --open-sans-open-sans-h4-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h4-light-font-weight: 300;
+  --open-sans-open-sans-h4-light-font-size: 21px;
+  --open-sans-open-sans-h4-light-letter-spacing: 0px;
+  --open-sans-open-sans-h4-light-line-height: 21px;
+  --open-sans-open-sans-h4-light-font-style: normal;
+  --open-sans-open-sans-h3-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h3-bold-font-weight: 700;
+  --open-sans-open-sans-h3-bold-font-size: 25px;
+  --open-sans-open-sans-h3-bold-letter-spacing: 0px;
+  --open-sans-open-sans-h3-bold-line-height: 25px;
+  --open-sans-open-sans-h3-bold-font-style: normal;
+  --open-sans-open-sans-h3-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h3-semibold-font-weight: 700;
+  --open-sans-open-sans-h3-semibold-font-size: 25px;
+  --open-sans-open-sans-h3-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-h3-semibold-line-height: 25px;
+  --open-sans-open-sans-h3-semibold-font-style: normal;
+  --open-sans-open-sans-h3-medium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h3-medium-font-weight: 400;
+  --open-sans-open-sans-h3-medium-font-size: 25px;
+  --open-sans-open-sans-h3-medium-letter-spacing: 0px;
+  --open-sans-open-sans-h3-medium-line-height: 25px;
+  --open-sans-open-sans-h3-medium-font-style: normal;
+  --open-sans-open-sans-h3-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h3-regular-font-weight: 400;
+  --open-sans-open-sans-h3-regular-font-size: 25px;
+  --open-sans-open-sans-h3-regular-letter-spacing: 0px;
+  --open-sans-open-sans-h3-regular-line-height: 25px;
+  --open-sans-open-sans-h3-regular-font-style: normal;
+  --open-sans-open-sans-h3-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h3-light-font-weight: 300;
+  --open-sans-open-sans-h3-light-font-size: 25px;
+  --open-sans-open-sans-h3-light-letter-spacing: 0px;
+  --open-sans-open-sans-h3-light-line-height: 25px;
+  --open-sans-open-sans-h3-light-font-style: normal;
+  --open-sans-open-sans-h2-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h2-bold-font-weight: 700;
+  --open-sans-open-sans-h2-bold-font-size: 30px;
+  --open-sans-open-sans-h2-bold-letter-spacing: 0px;
+  --open-sans-open-sans-h2-bold-line-height: 30px;
+  --open-sans-open-sans-h2-bold-font-style: normal;
+  --open-sans-open-sans-h2-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h2-semibold-font-weight: 700;
+  --open-sans-open-sans-h2-semibold-font-size: 30px;
+  --open-sans-open-sans-h2-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-h2-semibold-line-height: 30px;
+  --open-sans-open-sans-h2-semibold-font-style: normal;
+  --open-sans-open-sans-h2-hmedium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h2-hmedium-font-weight: 400;
+  --open-sans-open-sans-h2-hmedium-font-size: 30px;
+  --open-sans-open-sans-h2-hmedium-letter-spacing: 0px;
+  --open-sans-open-sans-h2-hmedium-line-height: 30px;
+  --open-sans-open-sans-h2-hmedium-font-style: normal;
+  --open-sans-open-sans-h2-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h2-regular-font-weight: 400;
+  --open-sans-open-sans-h2-regular-font-size: 30px;
+  --open-sans-open-sans-h2-regular-letter-spacing: 0px;
+  --open-sans-open-sans-h2-regular-line-height: 30px;
+  --open-sans-open-sans-h2-regular-font-style: normal;
+  --open-sans-open-sans-h2-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h2-light-font-weight: 300;
+  --open-sans-open-sans-h2-light-font-size: 30px;
+  --open-sans-open-sans-h2-light-letter-spacing: 0px;
+  --open-sans-open-sans-h2-light-line-height: 30px;
+  --open-sans-open-sans-h2-light-font-style: normal;
+  --open-sans-open-sans-h1-bold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h1-bold-font-weight: 700;
+  --open-sans-open-sans-h1-bold-font-size: 36px;
+  --open-sans-open-sans-h1-bold-letter-spacing: 0px;
+  --open-sans-open-sans-h1-bold-line-height: 36px;
+  --open-sans-open-sans-h1-bold-font-style: normal;
+  --open-sans-open-sans-h1-semibold-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h1-semibold-font-weight: 700;
+  --open-sans-open-sans-h1-semibold-font-size: 36px;
+  --open-sans-open-sans-h1-semibold-letter-spacing: 0px;
+  --open-sans-open-sans-h1-semibold-line-height: 36px;
+  --open-sans-open-sans-h1-semibold-font-style: normal;
+  --open-sans-open-sans-h1-medium-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h1-medium-font-weight: 400;
+  --open-sans-open-sans-h1-medium-font-size: 36px;
+  --open-sans-open-sans-h1-medium-letter-spacing: 0px;
+  --open-sans-open-sans-h1-medium-line-height: 36px;
+  --open-sans-open-sans-h1-medium-font-style: normal;
+  --open-sans-open-sans-h1-regular-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h1-regular-font-weight: 400;
+  --open-sans-open-sans-h1-regular-font-size: 36px;
+  --open-sans-open-sans-h1-regular-letter-spacing: 0px;
+  --open-sans-open-sans-h1-regular-line-height: 36px;
+  --open-sans-open-sans-h1-regular-font-style: normal;
+  --open-sans-open-sans-h1-light-font-family: "Open Sans", Helvetica;
+  --open-sans-open-sans-h1-light-font-weight: 300;
+  --open-sans-open-sans-h1-light-font-size: 36px;
+  --open-sans-open-sans-h1-light-letter-spacing: 0px;
+  --open-sans-open-sans-h1-light-line-height: 36px;
+  --open-sans-open-sans-h1-light-font-style: normal;
+  --balloon-drop-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.08);
+  --collection-1-darkmode: none;
+  --collection-1-color: rgba(29, 29, 31, 1);
+  --bot-o-cores: initial;
+  --bot-o-cor-do-bot-o: rgba(0, 86, 109, 1);
+  --bot-o-cor-da-fonte: rgba(254, 254, 254, 1);
+  --bot-o-stroke: rgba(0, 86, 109, 1);
+  --bot-o-seta: rgba(254, 254, 254, 1);
+  --mode-text-txt-secondary-alpha: var(--primitive-color-alpha-n00-50);
+  --mode-border-brd-panel: var(--primitive-color-alpha-n00-30);
+  --mode-surface-surface-input-chat: var(--primitive-color-n100);
+  --mode-border-brd-input-chat: var(--primitive-color-n70);
+  --primitive-color-alpha-n00-50: rgba(0, 0, 0, 0.5);
+  --primitive-color-alpha-n00-30: rgba(0, 0, 0, 0.3);
+  --primitive-color-n100: rgba(255, 255, 255, 1);
+  --primitive-color-alpha-n100-51: rgba(255, 255, 255, 0.51);
+  --primitive-color-n70: rgba(178, 178, 178, 1);
+  --primitive-color-alpha-n100-15: rgba(255, 255, 255, 0.15);
+  --primitive-color-n23: rgba(59, 59, 59, 1);
+  --primitive-color-n31: rgba(77, 79, 78, 1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-collection-1-mode="preto">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-collection-1-mode="preto"] {
+  --collection-1-darkmode: none;
+  --collection-1-color: rgba(29, 29, 31, 1);
+}
+
+[data-collection-1-mode="branco"] {
+  --collection-1-darkmode: initial;
+  --collection-1-color: rgba(254, 254, 254, 1);
+}
+
+[data-bot-o-mode="azul"] {
+  --bot-o-cores: initial;
+  --bot-o-cor-do-bot-o: rgba(0, 86, 109, 1);
+  --bot-o-cor-da-fonte: rgba(254, 254, 254, 1);
+  --bot-o-seta: rgba(254, 254, 254, 1);
+}
+
+[data-bot-o-mode="branco"] {
+  --bot-o-cores: none;
+  --bot-o-cor-do-bot-o: rgba(254, 254, 254, 1);
+  --bot-o-cor-da-fonte: rgba(0, 86, 109, 1);
+  --bot-o-seta: rgba(0, 86, 109, 1);
+}
+
+[data-mode-mode="light"] {
+  --mode-text-txt-secondary-alpha: var(--primitive-color-alpha-n00-50);
+  --mode-border-brd-panel: var(--primitive-color-alpha-n00-30);
+  --mode-surface-surface-input-chat: var(--primitive-color-n100);
+  --mode-border-brd-input-chat: var(--primitive-color-n70);
+}
+
+[data-mode-mode="dark"] {
+  --mode-text-txt-secondary-alpha: var(--primitive-color-alpha-n100-51);
+  --mode-border-brd-panel: var(--primitive-color-alpha-n100-15);
+  --mode-surface-surface-input-chat: var(--primitive-color-n23);
+  --mode-border-brd-input-chat: var(--primitive-color-n31);
+}

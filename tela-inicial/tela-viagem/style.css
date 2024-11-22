@@ -1,0 +1,773 @@
+.tela-viagens {
+  position: relative;
+  width: 390px;
+  height: 844px;
+  background-color: var(--branco);
+}
+
+.tela-viagens .lista-cards {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 12px 0px 120px;
+  position: absolute;
+  top: 91px;
+  left: 24px;
+}
+
+.tela-viagens .text-wrapper {
+  width: 342px;
+  margin-top: -1.00px;
+  font-family: var(--open-sans-open-sans-h3-semibold-font-family);
+  font-weight: var(--open-sans-open-sans-h3-semibold-font-weight);
+  color: #000000;
+  font-size: var(--open-sans-open-sans-h3-semibold-font-size);
+  line-height: var(--open-sans-open-sans-h3-semibold-line-height);
+  position: relative;
+  letter-spacing: var(--open-sans-open-sans-h3-semibold-letter-spacing);
+  font-style: var(--open-sans-open-sans-h3-semibold-font-style);
+}
+
+.tela-viagens .aviso {
+  display: flex;
+  flex-direction: column;
+  width: 342px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  position: relative;
+  background-color: var(--branco);
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: var(--azul-chique);
+}
+
+.tela-viagens .div {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--open-sans-open-sans-h5-semibold-font-family);
+  font-weight: var(--open-sans-open-sans-h5-semibold-font-weight);
+  color: var(--preto);
+  font-size: var(--open-sans-open-sans-h5-semibold-font-size);
+  text-align: center;
+  letter-spacing: var(--open-sans-open-sans-h5-semibold-letter-spacing);
+  line-height: var(--open-sans-open-sans-h5-semibold-line-height);
+  font-style: var(--open-sans-open-sans-h5-semibold-font-style);
+}
+
+.tela-viagens .p {
+  position: relative;
+  width: 276px;
+  font-family: var(--open-sans-open-sans-text-lg-medium-font-family);
+  font-weight: var(--open-sans-open-sans-text-lg-medium-font-weight);
+  color: var(--preto);
+  font-size: var(--open-sans-open-sans-text-lg-medium-font-size);
+  text-align: center;
+  letter-spacing: var(--open-sans-open-sans-text-lg-medium-letter-spacing);
+  line-height: var(--open-sans-open-sans-text-lg-medium-line-height);
+  font-style: var(--open-sans-open-sans-text-lg-medium-font-style);
+}
+
+.tela-viagens .bt {
+  display: flex;
+  width: 249px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--bot-o-cor-do-bot-o);
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: var(--azul-chique);
+}
+
+.tela-viagens .div-2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  transform: rotate(90.00deg);
+}
+
+.tela-viagens .bot-o {
+  position: relative;
+  flex: 1;
+  height: 15px;
+  font-family: var(--space-grotesk-space-grotesk-text-lg-bold-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-lg-bold-font-weight);
+  color: var(--bot-o-cor-da-fonte);
+  font-size: var(--space-grotesk-space-grotesk-text-lg-bold-font-size);
+  text-align: center;
+  letter-spacing: var(--space-grotesk-space-grotesk-text-lg-bold-letter-spacing);
+  line-height: var(--space-grotesk-space-grotesk-text-lg-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--space-grotesk-space-grotesk-text-lg-bold-font-style);
+}
+
+.tela-viagens .text-wrapper-2 {
+  position: relative;
+  width: 342px;
+  font-family: var(--open-sans-open-sans-h5-bold-font-family);
+  font-weight: var(--open-sans-open-sans-h5-bold-font-weight);
+  color: #000000;
+  font-size: var(--open-sans-open-sans-h5-bold-font-size);
+  letter-spacing: var(--open-sans-open-sans-h5-bold-letter-spacing);
+  line-height: var(--open-sans-open-sans-h5-bold-line-height);
+  font-style: var(--open-sans-open-sans-h5-bold-font-style);
+}
+
+.tela-viagens .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tela-viagens .maraca {
+  background-image: url(./img/maraca.png);
+  position: relative;
+  width: 100px;
+  height: 83.92px;
+  border-radius: 6px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.tela-viagens .info {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tela-viagens .line {
+  margin-top: -1.00px;
+  font-weight: var(--open-sans-open-sans-text-lg-bold-font-weight);
+  color: var(--preto);
+  font-size: var(--open-sans-open-sans-text-lg-bold-font-size);
+  line-height: var(--open-sans-open-sans-text-lg-bold-line-height);
+  position: relative;
+  width: fit-content;
+  font-family: var(--open-sans-open-sans-text-lg-bold-font-family);
+  letter-spacing: var(--open-sans-open-sans-text-lg-bold-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--open-sans-open-sans-text-lg-bold-font-style);
+}
+
+.tela-viagens .line-2 {
+  font-weight: var(--open-sans-open-sans-text-md-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--open-sans-open-sans-text-md-medium-font-size);
+  line-height: var(--open-sans-open-sans-text-md-medium-line-height);
+  position: relative;
+  width: fit-content;
+  font-family: var(--open-sans-open-sans-text-md-medium-font-family);
+  letter-spacing: var(--open-sans-open-sans-text-md-medium-letter-spacing);
+  white-space: nowrap;
+  font-style: var(--open-sans-open-sans-text-md-medium-font-style);
+}
+
+.tela-viagens .maraca-2 {
+  background-image: url(./img/maraca-1.png);
+  position: relative;
+  width: 100px;
+  height: 83.92px;
+  border-radius: 6px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.tela-viagens .menu-superior {
+  display: flex;
+  width: 390px;
+  height: 44px;
+  align-items: center;
+  gap: 130px;
+  padding: 8px 24px;
+  position: fixed;
+  top: 47px;
+  left: 0;
+  background-color: var(--branco);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--cinza-muito-claro);
+}
+
+.tela-viagens .img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.tela-viagens .logomarca {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -2.00px;
+  margin-bottom: -2.00px;
+  border-radius: 500px;
+}
+
+.tela-viagens .icone-logo {
+  position: relative;
+  width: 24.76px;
+  height: 24px;
+}
+
+.tela-viagens .nav-bar {
+  display: flex;
+  width: 390px;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 0px 20px;
+  position: fixed;
+  top: 771px;
+  left: 0;
+  background-color: var(--branco);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--cinza-muito-claro);
+}
+
+.tela-viagens .auto-layout {
+  max-width: 560px;
+  align-items: flex-start;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.tela-viagens .auto-layout-vertical {
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  height: 45px;
+  align-items: center;
+  padding: 0px 21.2px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.tela-viagens .img-wrapper {
+  width: 30px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3px 3px 5px;
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.tela-viagens .div-wrapper {
+  position: relative;
+  width: 35.6px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.tela-viagens .text-wrapper-3 {
+  position: absolute;
+  width: 36px;
+  height: 13px;
+  top: -2px;
+  left: 0;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.tela-viagens .auto-layout-vertical-2 {
+  height: 45px;
+  padding: 0px 18.08px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.tela-viagens .icone-corao {
+  position: relative;
+  width: 24px;
+}
+
+.tela-viagens .text-wrapper-4 {
+  position: relative;
+  width: 78px;
+  height: 13px;
+  margin-left: -18.08px;
+  margin-right: -18.08px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.tela-viagens .auto-layout-vertical-3 {
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.tela-viagens .icone-logo-wrapper {
+  width: 30px;
+  align-items: center;
+  padding: 4px 3px;
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.tela-viagens .icone-logo-2 {
+  position: relative;
+  width: 24.76px;
+  height: 24px;
+  margin-left: -0.38px;
+  margin-right: -0.38px;
+}
+
+.tela-viagens .text-wrapper-5 {
+  width: 78px;
+  height: 13px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--azul-chique);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  position: relative;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.tela-viagens .auto-layout-vertical-4 {
+  height: 45px;
+  padding: 0px 24px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.tela-viagens .auto-layout-wrapper {
+  position: relative;
+  width: 30px;
+  height: 32px;
+}
+
+.tela-viagens .cone-chat-wrapper {
+  width: 30px;
+  align-items: center;
+  padding: 3px;
+  top: 1px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.tela-viagens .img-2 {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.tela-viagens .text-wrapper-6 {
+  position: relative;
+  width: 78px;
+  height: 13px;
+  margin-left: -24.00px;
+  margin-right: -24.00px;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.tela-viagens .auto-layout-vertical-5 {
+  height: 45px;
+  padding: 0px 23.99px 0px 23.98px;
+  display: flex;
+  flex-direction: column;
+  min-width: 78px;
+  max-width: 78px;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.tela-viagens .frame-2 {
+  position: relative;
+  width: 30.03px;
+  height: 12px;
+  overflow: hidden;
+}
+
+.tela-viagens .text-wrapper-7 {
+  position: absolute;
+  width: 30px;
+  height: 13px;
+  top: -2px;
+  left: 0;
+  font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+  font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+  color: var(--cinza-escuro);
+  font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+  text-align: center;
+  letter-spacing: var(
+    --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+  );
+  line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+  font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.tela-viagens .status-bar-iphone {
+  position: fixed;
+  width: 390px;
+  height: 47px;
+  top: 0;
+  left: 0;
+  background-color: var(--branco);
+}
+
+.tela-viagens .clock {
+  position: absolute;
+  width: 88px;
+  height: 47px;
+  top: 0;
+  left: 0;
+}
+
+.tela-viagens .time-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  position: relative;
+  top: 17px;
+  left: 48px;
+}
+
+.tela-viagens .time {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: -0.50px;
+  line-height: 17px;
+  white-space: nowrap;
+}
+
+.tela-viagens .indicators-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  position: absolute;
+  top: 19px;
+  left: 285px;
+}
+
+.tela-viagens .signal {
+  position: relative;
+  width: 19.97px;
+  height: 12px;
+  background-image: url(./img/cellular-connection.svg);
+  background-size: 100% 100%;
+}
+
+.tela-viagens .connection {
+  position: relative;
+  width: 17px;
+  height: 12.5px;
+  background-image: url(./img/wifi.svg);
+  background-size: 100% 100%;
+}
+
+.tela-viagens .battery {
+  position: relative;
+  width: 27.33px;
+  height: 13px;
+}
+.auto-layout {
+    display: flex;
+    max-width: 560px;
+    align-items: flex-start;
+    justify-content: start;
+
+    position: relative;
+}
+
+.auto-layout .auto-layout-vertical {
+    display: flex;
+    flex-direction: column;
+    min-width: 78px;
+    max-width: 78px;
+    height: 45px;
+    align-items: center;
+    padding: 0px 21.2px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.auto-layout .img-wrapper {
+    align-items: flex-start;
+    padding: 3px 3px 5px;
+    flex: 0 0 auto;
+    display: flex;
+    width: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.auto-layout .cone-lupa {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.auto-layout .frame {
+    position: relative;
+    width: 35.6px;
+    height: 12px;
+    overflow: hidden;
+}
+
+.auto-layout .text-wrapper {
+    position: absolute;
+    width: 36px;
+    height: 13px;
+    top: -2px;
+    left: 0;
+    font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+    font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+    color: var(--cinza-escuro);
+    font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+    text-align: center;
+    letter-spacing: var(
+        --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+    );
+    line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+    font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .div {
+    height: 45px;
+    padding: 0px 18.08px;
+    display: flex;
+    flex-direction: column;
+    min-width: 78px;
+    max-width: 78px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.auto-layout .icone-corao {
+    position: relative;
+    width: 24px;
+}
+
+.auto-layout .text-wrapper-2 {
+    position: relative;
+    width: 78px;
+    height: 13px;
+    margin-left: -18.08px;
+    margin-right: -18.08px;
+    font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+    font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+    color: var(--azul-chique);
+    font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+    text-align: center;
+    letter-spacing: var(
+        --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+    );
+    line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+    font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .auto-layout-vertical-2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 78px;
+    max-width: 78px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.auto-layout .icone-logo-wrapper {
+    align-items: center;
+    padding: 4px 3px;
+    flex: 0 0 auto;
+    display: flex;
+    width: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.auto-layout .icone-logo {
+    position: relative;
+    width: 24.76px;
+    height: 24px;
+    margin-left: -0.38px;
+    margin-right: -0.38px;
+}
+
+.auto-layout .text-wrapper-3 {
+    position: relative;
+    width: 78px;
+    height: 13px;
+    font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+    font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+    color: var(--cinza-escuro);
+    font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+    text-align: center;
+    letter-spacing: var(
+        --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+    );
+    line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+    font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .auto-layout-vertical-3 {
+    height: 45px;
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    min-width: 78px;
+    max-width: 78px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.auto-layout .auto-layout-wrapper {
+    position: relative;
+    width: 30px;
+    height: 32px;
+}
+
+.auto-layout .cone-chat-wrapper {
+    align-items: center;
+    padding: 3px;
+    top: 1px;
+    display: flex;
+    width: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.auto-layout .img {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.auto-layout .text-wrapper-4 {
+    position: relative;
+    width: 78px;
+    height: 13px;
+    margin-left: -24.00px;
+    margin-right: -24.00px;
+    font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+    font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+    color: var(--cinza-escuro);
+    font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+    text-align: center;
+    letter-spacing: var(
+        --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+    );
+    line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+    font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
+.auto-layout .auto-layout-vertical-4 {
+    height: 45px;
+    padding: 0px 23.99px 0px 23.98px;
+    display: flex;
+    flex-direction: column;
+    min-width: 78px;
+    max-width: 78px;
+    align-items: center;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+}
+
+.auto-layout .div-wrapper {
+    position: relative;
+    width: 30.03px;
+    height: 12px;
+    overflow: hidden;
+}
+
+.auto-layout .text-wrapper-5 {
+    position: absolute;
+    width: 30px;
+    height: 13px;
+    top: -2px;
+    left: 0;
+    font-family: var(--space-grotesk-space-grotesk-text-sm-medium-font-family);
+    font-weight: var(--space-grotesk-space-grotesk-text-sm-medium-font-weight);
+    color: var(--cinza-escuro);
+    font-size: var(--space-grotesk-space-grotesk-text-sm-medium-font-size);
+    text-align: center;
+    letter-spacing: var(
+        --space-grotesk-space-grotesk-text-sm-medium-letter-spacing
+    );
+    line-height: var(--space-grotesk-space-grotesk-text-sm-medium-line-height);
+    font-style: var(--space-grotesk-space-grotesk-text-sm-medium-font-style);
+}
+
