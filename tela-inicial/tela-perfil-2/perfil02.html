@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="perfil02.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="clock">9:41</div>
+        <div class="indicators">
+            <div class="signal">
+                <img src="img/Signal.png">
+            </div>
+            <div class="wifi">
+                <img src="img/Connection.png">
+            </div>
+            <div class="battery">
+                <img src="img/Battery.png">
+            </div>
+        </div>
+    </div>
+
+    <header class="menu-superior">
+        <div class="back-button" aria-label="Voltar">
+            <span class="icon-arrow">
+                <img src="img/Vector.png">
+            </span>
+        </div>
+        <div class="logo">
+            <div class="logo-icon">
+                <img src="img/Logomarca.png">
+            </div>
+        </div>
+        <div class="menu-icon"></div>
+    </header>
+
+    <main class="profile-container">
+        <div class="profile-header">
+            <div class="edit-button" aria-label="Editar perfil">
+                <span class="edit-icon">
+                    <img src="img/edit.png">
+                </span>
+            </div>
+            <div class="profile-image">
+                <img src="img/Places.png" alt="Foto do perfil" class="profile-photo">
+            </div>
+        </div>
+
+        <form class="profile-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" value="Marcelo" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" value="marcelo.designer@gmail.com" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" value="************" class="form-input">
+            </div>
+
+            <div class="form-group">
+                <label for="birthdate">Data de nascimento</label>
+                <div class="input-with-icon">
+                    <input type="text" id="birthdate" value="23/05/1995" class="form-input">
+                    <span class="arrow-icon">
+                        <img src="img/material-symbols_arrow-back-ios.png">
+                    </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="nationality">Nacionalidade</label>
+                <div class="input-with-icon">
+                    <input type="text" id="nationality" value="Brasil" class="form-input">
+                    <span class="arrow-icon">
+                        <img src="img/material-symbols_arrow-back-ios.png">
+                    </span>
+                </div>
+            </div>
+
+            <button type="submit" class="save-button">
+                <span class="button-text">Salvar alterações</span>
+            </button>
+        </form>
+
+        <nav class="nav-bar">
+            <a href="#" class="nav-item">
+                <span class="nav-icon search">
+                    <img src="imagens/Auto Layout Horizontal.png" alt="">
+                </span>
+                <span class="nav-text">Buscar</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon heart">
+                    <img src="imagens/Auto Layout Horizontal (1).png" alt="">
+                </span>
+                <span class="nav-text">Favoritos</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon trips">
+                    <img src="imagens/Auto Layout Horizontal (2).png" alt="">
+                </span>
+                <span class="nav-text">Viagens</span>
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon chat">
+                    <img src="imagens/Frame.png" alt="">
+                </span>
+                <span class="nav-text">Conversas</span>
+            </a>
+            <a href="#" class="nav-item active">
+                <span class="nav-icon profile">
+                    <img src="imagens/Auto Layout Horizontal (3).png" alt="">
+                </span>
+                <span class="nav-text">Perfil</span>
+            </a>
+        </nav>
+    </main>
+</body>
+</html>
